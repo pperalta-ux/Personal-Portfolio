@@ -1,0 +1,379 @@
+/***** BASE STYLES *****/
+html {
+      font-size: 16px;
+      }
+body{
+      font-family: 'Source Serif Pro', serif, 'Roboto', sans-serif;
+      justify-content: center;
+      align-items: center;
+      font-size: 1em;
+      }
+header {
+      background: url('../img/header-background.png');
+      display:flex;
+    	justify-content: flex-end;
+    	align-items: center;
+      flex-flow: row wrap;
+      background-size: cover;
+      background-position: center;
+      padding-bottom: 32%;
+      }
+.full-width {
+      overflow: auto;
+      display:flex;
+    	justify-content: center;
+    	align-items: center;
+      flex-flow: column;
+      text-align: center;
+      }
+/***** HEADER *****/
+header nav {
+      padding-top: 3%;
+      text-align: initial;
+      padding-right: 10%;
+      display: contents;
+      }
+nav ul {
+      padding-right: 5%;
+      }
+nav ul li {
+      display: inline-block;
+      }
+nav ul li a {
+      font-family: 'Roboto', sans-serif;
+      text-transform:uppercase;
+      text-decoration:none;
+      font-size: 1.6em;
+      color: #433D43;
+      padding-left: 20px;
+      }
+header h1 {
+      font-size: 2.4em;
+      font-family: 'source serif pro', serif;
+      color: #7b5f54;
+      }
+header .full-width h1 {
+      text-align: -webkit-center;
+      padding-right: 1%;
+      }
+header h2{
+      font-size: 1.65em;
+      font-family: 'Roboto', sans-serif;
+      color:#ca7d82;
+      margin: 0 auto;
+      padding-left: 350px;
+      width: 593px;
+      padding-bottom: 5%;
+      }
+/***** CENTER *****/
+#myportfolio .full-width {
+      flex-flow: column;
+      display:flex;
+    	justify-content: center;
+    	align-items: center;
+      }
+#myportfolio{
+      color: #433D43;
+      background-color: rgb(243, 203, 186);
+      padding-bottom: 35px;
+      }
+#myportfolio img {
+      width: 95%;
+      }
+#myportfolio .dorothy-delong img {
+      height:
+      }
+#myportfolio .refresh-reuse img {
+      height: 40%;
+      }
+#myportfolio h2{
+      font-size: 2.81em;
+      font-family: 'source serif pro', serif;
+      text-align: center;
+      padding-top: 30px;
+      margin-top: 20px;
+      }
+#myportfolio h3{
+      font-size: 2.5em;
+      font-family: 'source serif pro', serif;
+      text-align: left;
+      padding-left: 3%;
+      padding-bottom: 1.5%;
+      }
+#myportfolio .sub-header .half-width p{
+      text-align: left;
+      }
+#myportfolio .half-width h3 {
+      margin: 0;
+      padding-top: 3%;
+      }
+#myportfolio .half-width p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 2em;
+      text-align: left;
+      padding-left: 3%;
+      padding-right: 3%;
+      padding-bottom: 4%;
+      margin: 0;
+      }
+#myportfolio .section-two p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.25em;
+      text-align: left;
+      }
+#myportfolio .section-three p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.25em;
+      text-align: left;
+      }
+/***** ABOUT ME *****/
+#aboutme .full-width {
+      flex-flow: column;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      }
+#aboutme .half-width {
+      margin: 2%;
+      }
+#aboutme{
+      background-color: #e8c583;
+      display:flex;
+    	justify-content: center;
+    	align-items: center;
+      flex-flow: column;
+      padding-bottom: 1%;
+      }
+#aboutme img {
+      padding-bottom: 2%
+      }
+#aboutme h2 {
+      text-align: center;
+      color: #fcfbf8;
+      font-size: 2.81em;
+      margin: 2%;
+      }
+#aboutme .half-width p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 2em;
+      text-align: left;
+      color: #fcfbf8;
+      margin: 0;
+      }
+#aboutme .half-width .about-me p{
+      padding-bottom: 1%;
+      }
+#aboutme .fun-fact p {
+      font-family: 'source serif pro', serif;
+      border: 15px solid #f9ceb7;
+      background-color: #f9ceb7;
+      color: #433D43;
+      }
+
+/***** FOOTER *****/
+footer {
+      display:flex;
+      }
+footer #contact .full-width {
+      justify-content: space-between;
+      }
+#contact .half-width {
+      width: 600px;
+      }
+#contact .half-width img {
+      width: 20px;
+      padding-top: 15px;
+      display: inline-block;
+      padding-left: 50%;
+      }
+#contact .half-width ul{
+      padding-left: 15px;
+      }
+#contact .half-width ul li {
+      display: inline-block;
+      }
+#contact .half-width ul li a{
+      width: 100px;
+      }
+#contact .icons {
+      display: inline-block;
+      }
+#contact .icons img{
+      width: 35px;
+      padding-top: 35px;
+      }
+#contact .half-width .contact {
+      padding-top: 23px;
+      }
+#contact .half-width p {
+      text-align: center;
+      color: #ca7d82;
+      line-height: 4px;
+      font-family: 'source serif pro', serif;
+      padding-left: 55%;
+      }
+#contact .half-width p a{
+      color: #ca7d82;
+      text-align: center;
+      font-family: 'source serif pro', serif;
+      }
+  /*------ TABLET ------*/
+@media (min-width: 768px){
+#myportfolio {
+      padding-right:2%;
+      padding-left: 2%;
+      }
+nav ul li a {
+      font-size: 1.12em;
+      padding-left: 60px;
+      }
+#myportfolio .sub-header {
+      font-size: 1.75em;
+      }
+#aboutme {
+      padding-right:2%;
+      padding-left: 2%;
+      }
+#contact .half-width .contact {
+      padding-top: 0;
+      }
+      }
+
+/*------- DESKTOP ----------*/
+@media (min-width: 1200px) {
+      header {
+      background-size: cover;
+      background-position: center;
+      }
+      header .full-width h1 {
+      padding-right: 0;
+      }
+      .header-padding {
+      width: 60%
+      }
+      header nav {
+      display: inline;
+      }
+      header .intro {
+      width: ;
+      }
+      nav {
+      float: right;
+      padding: 75px 25px;
+      }
+      nav ul {
+      padding-top: 12%;
+      padding-right: 0;
+      }
+      header h2 {
+      padding-left: 38%;
+      padding-top: 1%;
+      padding-bottom: 12%;
+      font-size: 1.65em;
+      }
+/*------MY PORTFOLIO-------*/
+      #myportfolio{
+      padding-right: 6%;
+      }
+      #myportfolio .full-width {
+      flex-flow: row-reverse;
+      }
+      #myportfolio .half-width {
+      width: 105%;
+      margin: 0;
+      font-size: 1.1em;
+      }
+      #myportfolio .sub-header .half-width p{
+      margin: 0;
+      max-width: 100%;
+      }
+      #myportfolio img {
+      padding-top: 2%;
+      padding-bottom: 1.5%;
+      max-width: 80%;
+      }
+      #myportfolio .dorothy-delong img {
+      width: 90%;
+      padding-bottom: 0;
+      padding-top: 0;
+      }
+      #myportfolio .branding-guide {
+      padding-top: 11%;
+      }
+      #myportfolio .refresh-reuse img {
+      height: 40%;
+      width: 90%;
+      padding-bottom: 0;
+      padding-top: 0;
+      }
+      #myportfolio .prototype-title {
+      padding-top: 5%;
+      }
+      #myportfolio .prototype img {
+      width: 90%;
+      padding-bottom: 0;
+      padding-top: 0;
+      }
+      #myportfolio .half-width h3 {
+      font-size: 2.5em;
+      margin: 0;
+      padding-top: 0;
+      }
+      #myportfolio .half-width p{
+      font-size: 1.2em;
+      }
+/*---------- ABOUT ----------*/
+      #aboutme{
+      padding-right: 6%;
+      }
+      #aboutme h2 {
+      padding-top: 30px;
+      margin-top: 20px;
+      text-align: center;
+      }
+      #aboutme .full-width {
+      flex-flow: initial;
+      }
+      #aboutme img {
+      padding-left: 5%;
+      padding-right: 3%;
+      }
+      #aboutme .half-width p{
+      font-size: 1.4em;
+      }
+      #aboutme .about-me {
+      padding-bottom: 4%;
+      }
+      #aboutme .about-me-end {
+      padding-top: 4%;
+      }
+/*---------- CONTACT ----------*/
+      footer {
+      display: block;
+      }
+      #contact{
+      padding-right: 0;
+      }
+      #contact .full-width {
+      flex-flow: row;
+      }
+      #contact .half-width {
+      padding-bottom: 1%;
+      }
+      #contact .half-width img  {
+      padding-left: 0;
+      padding-top: 1%;
+      }
+      #contact .half-width p {
+      font-size: 1.25em;
+      }
+      #contact .half-width {
+      width: ;
+      }
+      #contact .half-width-contact {
+      padding-top: 3%;
+      }
+      #contact .icons{
+      padding-right: 65%;
+      }
+      }
